@@ -26,7 +26,10 @@
       }
 
       body {
-        background: no-repeat center/120% url("/assets/img/background.jpg");
+        background: url("/background.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
         background-color: #f4a261;
 
       }
@@ -39,7 +42,7 @@
 
       img {
         display: block;
-        width: 150px;
+        width: 125px;
         margin: auto;
         border-radius: 50%;
         margin-bottom: 10px;
@@ -73,7 +76,7 @@
     <div class="container">
       <img src="/assets/img/profile.jpg" />
       <p>Brian Hsu</p>
-      <p><a class="website" href="http://hsubrian.com/">hsubrian.com</a></p>
+      <p><a class="website" href="http://hsubrian.com/" style="color:#e76f51">hsubrian.com</a></p>
       <a class="link box" target="_blank" href="https://linktr.ee/d35east"
         >D35E Linktree</a
       >
